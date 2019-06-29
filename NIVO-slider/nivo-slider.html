@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!-- 
+https://dev7studios.com/products/nivo-slider-wordpress-plugin/
+https://github.com/gilbitron/Nivo-Slider
+ -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nivo Slider</title>
+
+<!-- Nivo Slider начало -->
+<link rel="stylesheet" href="nivo-themes/default.css" media="screen">
+<link rel="stylesheet" href="nivo-css/nivo-slider.css" media="screen">
+<!-- Nivo Slider завершение -->
+
+</head>
+
+<body>
+	
+<!-- Nivo Slider начало -->
+<div class="slider-wrapper theme-default">
+	<div id="slider" class="nivoSlider">
+		<img src="nivo-images/s01.jpg" data-thumb="images/s01.jpg" alt="" title="Автосервис">
+		<img src="nivo-images/s02.jpg" data-thumb="images/s02.jpg" alt="" title="Астраханский ГПЗ">
+		<img src="nivo-images/s03.jpg" data-thumb="images/s03.jpg" alt="" data-transition="slideInLeft" title='Склад LG'>
+	</div>
+</div>
+<!-- Nivo Slider завершение -->
+
+
+
+<!--Nivo Slider начало - поместить в самый наз документа -->
+<script src="nivo-scripts/jquery-1.9.0.min.js"></script>
+<script src="nivo-scripts/jquery.nivo.slider.js"></script>
+<script>
+$(window).load(function() {
+	$('#slider').nivoSlider();
+});
+</script>
+<!-- Nivo Slider завершение -->
+
+</body>
+</html>

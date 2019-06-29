@@ -1,0 +1,132 @@
+
+
+
+
+	#toggle,
+	.toggle__btn {
+	display: none;
+	}
+
+
+	html {
+		background-color: #e7e7e7;
+		background-image: none;
+	}
+
+	#wrapper {
+		width: auto;
+	}
+
+	header {
+		height: auto;
+	}
+
+	header a {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+	header form {
+		float: none;
+		width: 232px;
+		margin: auto;
+	}
+
+	.slider-wrapper {
+		display: none;
+	}
+
+	#white {
+		padding: 10px;
+	}
+
+	nav ul {
+		display: block;
+	}
+
+	nav li {
+		display: list-item;
+		margin-bottom: 5px;
+	}
+
+	#gradient {
+		height: auto;
+	}
+
+	#gradient > div {
+		float: none;
+		margin: auto;
+		width: auto;
+		padding: 0 30px;
+	}
+
+	#gradient div:last-child {
+		padding-bottom: 30px;
+	}
+
+	/*#gradient .more {
+		margin: auto;
+	}*/
+
+	#content > div {
+		height: auto;
+		float: none;
+		margin: auto;
+	}
+
+	#content1, 
+	#content2, 
+	#content3 {
+		width: auto;
+		padding: 0 30px;
+	}
+
+	#content3 {
+		padding-bottom: 20px;
+	}
+
+	#content h2 {
+		padding: 50px 0 15px 0;
+	}
+
+	.more {
+		margin: auto;
+	}
+
+
+
+	#banners {
+		background: #fff;
+		height: auto;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	#banners hr {
+		margin: 0 0 20px 0;
+	}
+
+	#banners a {
+		border: 0;
+		margin-left: 20px;
+	}
+
+
+
+
+	footer {
+		text-align: center;
+	}
+
+	footer p {
+		padding: 10px 0;
+	}
+
+	footer img {
+		display: block;
+		margin: 15px auto;
+	}
+	
+	
+

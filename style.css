@@ -1,0 +1,291 @@
+
+
+
+
+* {margin: 0; padding: 0; font-size: 100%; text-decoration: none;}
+
+body {
+
+}
+
+html {
+	color: #202020;
+	font: 16px Tahoma, Arial, sans-erif;
+	background: url("img/fon.png") repeat-x;
+}
+
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#toggle,
+.toggle__btn {
+	display: none;
+}
+
+#wrapper {
+	width: 940px;
+	min-width: 340px;
+	margin: auto;
+
+}
+
+header {
+ 	height: 90px;
+}
+
+header a {
+	background: url("img/logo.png");
+	width: 300px;
+	height: 90px;
+	color: transparent;
+	float: left;
+}
+
+header form {
+ 	float: right;
+	margin: 30px 40px 0 0;
+	font-size: 0;
+}
+
+[type='text'] {
+	width: 200px;
+	height: 28px;
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+[type='submit'] {
+	width: 30px;
+	height: 30px;
+	background: url("img/search.png");
+	border: 0;
+	font-size: 16px;
+}
+
+
+
+#white {
+	background: #fff;
+  	padding: 40px 40px 20px;
+
+}
+
+nav ul {
+ 	list-style: none;
+ 	display: table;
+ 	margin-bottom: 10px;
+ 	width: 100%;
+ 	table-layout: fixed;
+}
+
+nav li {
+	display: table-cell;
+	text-transform: uppercase;
+	text-align: center;
+	height: 70px;
+
+}
+
+nav li a {
+	height: 70px;
+	color: #202020;
+	font-size: 18px;
+	background: #e7e7e7;
+	display: block;
+	line-height: 70px;
+	transition: .5s all ease;
+}
+
+nav li a:hover {
+	background: #202020;
+	color: white;
+}
+
+nav li a#here {
+	background: #202020;
+	color: white;
+}
+
+
+#gradient {
+	height: 320px;
+	background: linear-gradient(#e94644, #e6221f);
+}
+
+#gradient > div {
+	float: left;
+	width: 260px;
+	margin-left: 40px;
+
+}
+
+
+#gradient h1 {
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+
+#gradient p {
+	font-size: 13px;
+	color: #fff;	
+	padding-bottom: 10px;
+}
+
+#gradient img {
+	float: left;
+	margin: 0 15px 0px 0;
+}
+
+.more {
+	display: block;
+	width: 65px;
+	height: 35px;
+	color: #fff;
+	background: #202020;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	text-transform: lowercase;
+	font-size: 18px;
+}
+
+
+#content {
+	background: #fff;
+}
+
+#content > div {
+	height: 490px;
+	float: left;
+	margin-left: 40px;
+}
+
+
+#content1, #content3 {
+	width: 220px;
+}
+
+#content2 {
+	width: 340px;
+}
+
+#content h2 {
+	font-size: 26px;
+	color: #202020;
+	padding: 50px 0 45px 0;
+}
+
+#content2 h3 {
+	padding: 5px 0 10px 0;
+} 
+
+#content2 p {
+	line-height: 22px;
+	word-spacing: .1em;
+	padding-bottom: 40px;
+} 
+
+#content1 li {
+	list-style-position: inside;
+	list-style-image: url('img/marker.png');
+	padding-bottom: 10px;
+}
+
+#content1 a {
+	color: #202020;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+#content3 :last-child {
+	margin-top: 20px;
+}
+
+hr {
+border: 0;
+height: 1px;
+background: #000;
+background: #000;
+background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+background-image: -o-linear-gradient(left, #fff, #000, #fff);
+margin: 20px 0;
+}
+
+
+#banners {
+	background: #fff;
+	height: 120px;
+	padding-left: 20px;
+
+}
+
+#banners hr {
+	margin: 0 0 20px 0;
+}
+
+#banners a {
+	border: 0;
+	float: left;
+	margin-left: 20px;
+}
+
+footer {
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+footer p {
+	font-size: 13px;
+	display: block;
+	padding: 10px 10px 0 0;
+}
+
+footer a {
+	color: #202020;
+	text-decoration: underline;
+}
+
+footer img {
+	display: block;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
